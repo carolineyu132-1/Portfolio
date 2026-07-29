@@ -1,0 +1,114 @@
+.home-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+
+  color: #2B547E;
+  font-size: 28px;
+  text-decoration: none;
+
+  z-index: 1000;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.home-button:hover {
+  color: #4A90E2;
+  transform: scale(1.15);
+}
+
+.title {
+  text-align: center;
+  width: max-content;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+  color: #2B547E;
+  font-size: 40px;
+  
+  /* font-variation-settings: "wdth" 150; */
+}
+
+.banner {
+  width: 100%;
+  height: 180px;
+  background-image: url('https://images.unsplash.com/photo-1673526759322-2b43a11d75fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUzNDYzMzd8&ixlib=rb-4.1.0&q=85');
+  background-size: cover;
+  background-position: center;
+   border-radius: 20px;   
+  overflow: hidden;
+}
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 1000; */
+  font-style: normal;
+  color: #2B547E;
+  font-size: 15px;
+   border-radius: 20px;   
+  overflow: hidden;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons a:not(.resume-link) {
+  color: #2B547E;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #0077b5;
+}
+
+#copied-message {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: #2B547E;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#copied-message.show {
+  opacity: 1;
+}
+
+.resume-link {
+  color: #2B547E;              
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;              
+  font-weight: 350;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+}
+
+.resume-link:hover {
+  color: #2B547E;               /* Change font colour on hover */
+  background-color: #D9EAF7;    /* Highlight background */
+  border-radius: 4px;
+  padding: 2px 5px;
+}

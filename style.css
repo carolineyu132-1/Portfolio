@@ -43,29 +43,34 @@ body {
 .title {
   text-align: center;
   width: max-content;
+
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+
+  transform: translate(-50%, -50%);
+
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 1000;
-  font-style: normal;
   color: #2B547E;
   font-size: 40px;
-  
-  /* font-variation-settings: "wdth" 150; */
 }
 
 .banner {
   width: 100%;
-  height: 200px;
-  background-image: url('https://images.unsplash.com/photo-1673526759322-2b43a11d75fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODUzNDYzMzd8&ixlib=rb-4.1.0&q=85');
+  height: 450px;
+
+  background-image: url('YOUR_IMAGE_URL');
   background-size: cover;
   background-position: center;
-   border-radius: 20px;   
+
+  border-radius: 20px;
   overflow: hidden;
+
+  position: relative;
 }
+
+
 .about {
   padding: 60px 20px;
   text-align: center;

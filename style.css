@@ -72,15 +72,15 @@
 
 
 .about {
-  padding: 60px 20px;
+  padding: 60px 60px;
   text-align: center;
   background-color: #f4f4f4;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: 1000; */
+  font-weight: 500;
   font-style: normal;
   color: #2B547E;
-  font-size: 15px;
+  font-size: 25px;
    border-radius: 20px;   
   overflow: hidden;
 }

@@ -62,37 +62,23 @@
 
 
 .content-row {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-
-  margin: 80px auto;
-  max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 80px auto;
+    max-width: 1200px;
 }
-
 
 .content-row.reverse {
-  flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
-
 
 .content-text {
-  flex: 1;
-
-  font-family: "Nunito Sans", sans-serif;
-  color: #2B547E;
+    flex: 1;
 }
-
-
-.content-text p {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #444;
-}
-
 
 .content-image {
-  width: 45%;
-  border-radius: 20px;
-  object-fit: cover;
+    width: 45%;
+    height: auto;
 }

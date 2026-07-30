@@ -40,6 +40,10 @@ body {
   font-size: 22px;
 }
 
+.home-icon i {
+  display: inline-block;
+}
+
 .navbar a.active {
   color: #4A90E2;
   text-decoration: underline;

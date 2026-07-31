@@ -110,6 +110,11 @@
     height: auto;
 }
 
+video.content-image {
+  height: 300px;
+  object-fit: cover;
+}
+
 
 .banner {
     text-align: center;

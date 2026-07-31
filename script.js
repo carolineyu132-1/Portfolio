@@ -12,3 +12,10 @@ emailButton.addEventListener("click", (e) => {
     message.classList.remove("show");
   }, 1500);
 });
+
+const bannerBg = document.getElementById('bannerBg');
+
+window.addEventListener('scroll', () => {
+  const scrolled = window.scrollY;
+  bannerBg.style.transform = `translateY(${scrolled * 0.4}px)`;
+});

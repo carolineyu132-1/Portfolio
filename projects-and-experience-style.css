@@ -111,8 +111,9 @@
 }
 
 video.content-image {
-  height: 300px;
-  object-fit: cover;
+    height: 300px;
+    object-position: center top;
+    object-fit: cover;
 }
 
 

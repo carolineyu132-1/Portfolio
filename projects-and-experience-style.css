@@ -59,22 +59,25 @@
 }
 
 .learn-button {
-  display: inline-block;
+    display: inline-block;
+    
+    margin-top: 15px;
+    
+    padding: 10px 20px;
+    
+    background: #2B547E;
+    color: white;
+    
+    border-radius: 8px;
+    
+    text-decoration: none; 
 
-  margin-top: 15px;
-
-  padding: 10px 20px;
-
-  background: #2B547E;
-  color: white;
-
-  border-radius: 8px;
-
-  text-decoration: none;
+    font-weight: 700;
 }
 
 .learn-button:hover {
-  background: #4A90E2;
+    background: #4A90E2;
+    text-decoration: underline;
 }
 
 

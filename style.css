@@ -75,6 +75,25 @@
   will-change: transform;
 }
 
+.projects-preview {
+  padding: 60px 60px;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  color: #2B547E;
+}
+.projects-preview h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.projects-preview p {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto 25px;
+}
+
+
 .about {
   padding: 60px 60px;
   text-align: center;

@@ -117,8 +117,9 @@ video.content-image {
 }
 
 .page-content {
-  background-color: #CADDEE;
-  padding: 40px 0;
+    background-color: #CADDEE;
+    padding: 40px 0;
+    border-radius: 20px;
 }
 
 

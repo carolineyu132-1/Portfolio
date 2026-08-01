@@ -119,9 +119,16 @@ video.content-image {
 
 .page-banner {
     text-align: center;
+    background-color: #2B547E;
     padding: 80px 20px 40px;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.banner-image {
+  max-height: 150px;           /* adjust size as needed */
+  width: auto;
+  margin-bottom: 20px;
 }
 .page-banner h1 {
     font-size: 2.5rem;

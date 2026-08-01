@@ -116,6 +116,11 @@ video.content-image {
     object-fit: cover;
 }
 
+.page-content {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
 
 .page-banner {
     text-align: center;

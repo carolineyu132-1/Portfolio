@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +11,60 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <!-- Icons -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
   >
 </head>
+<body class="projects-page">
+  <nav class="navbar">
+    <a href="index.html" class="home-icon">
+      <i class="fa-solid fa-house"></i>
+    </a>
+    <a href="projects-and-experience.html">Projects and Experience</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <a href="projects-and-experience.html" class="back-button">
+    <i class="fa-solid fa-arrow-left"></i> Back to Projects
+  </a>
+
+  <!-- Banner -->
+  <div class="page-banner">
+    <h1>Robotic Hand</h1>
+    <p>
+      One-line description of this project goes here.
+    </p>
+  </div>
+
+  <!-- Content -->
+  <div class="page-content">
+
+    <!-- Row 1: text left, image right -->
+    <div class="content-row">
+      <div class="content-text">
+        <h2>Design Process</h2>
+        <p>
+          Describe what you designed, built, or contributed to
+          for this project.
+        </p>
+      </div>
+      <img src="images/robotic-hand.png" class="content-image">
+    </div>
+
+    <!-- Row 2: text right, image left (reversed) -->
+    <div class="content-row reverse">
+      <div class="content-text">
+        <h2>Testing & Iteration</h2>
+        <p>
+          Describe testing, results, or design iterations here.
+        </p>
+      </div>
+      <img src="images/robotic-hand-2.png" class="content-image">
+    </div>
+
+  </div> <!-- closes .page-content -->
+
+</body>
+</html>

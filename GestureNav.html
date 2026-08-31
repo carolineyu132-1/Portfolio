@@ -52,9 +52,9 @@
 
     <div class="content-row reverse">
       <div class="content-text">
-        <h2>Testing & Iteration</h2>
+        <h2>Gesture-to-Robot Command Bridge</h2>
         <p>
-          Describe testing, results, or design iterations here.
+          A real-time control pipeline connecting a Windows-based hand gesture recognizer to a ROS2 robot running in a Linux VM. Hand landmarks detected via MediaPipe are classified into directional gestures, sent over a TCP socket across a bridged network connection, and received by a ROS2 node that translates them into velocity commands (Twist messages) published to /cmd_vel — driving the robot's movement live based on hand gestures, with an automatic stop when the hand leaves the camera's view.
         </p>
       </div>
       <video src="vids/ConnectRobotGesture.mp4" class="content-image" autoplay loop muted playsinline></video>
